@@ -1,0 +1,43 @@
+
+.weather{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.title{
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid green;
+  padding-bottom: 8px;
+}
+
+.sub-title{
+  font-size: 26px;
+  margin: 0;
+}
+
+.weather-more{
+  margin-top: 80px;
+}
+
+.days-weather{
+  margin-top: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(250, 250, 250);
+  padding: 0px 12px 8px;
+  border-radius: 4px;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.days-weather > p {
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(0, 146, 7);
+}
